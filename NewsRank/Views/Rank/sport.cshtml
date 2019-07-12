@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<NewsRank.Models.TblNews>
+@{
+    ViewData["Title"] = "Sport";
+}
+
+    <div class="container">
+        <div class="row">
+
+            <div class="page-header">
+                <h1>新闻排行榜 <small> 体育</small></h1>
+            </div>
+            <table class="table">
+                <tr>
+                    <th>排名</th>
+                    <th>标题</th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelitem => item.NewsRank)</td>
+                        <td>
+                            <a href="detial/@Html.DisplayFor(modelitem => item.Id)">
+                                @Html.DisplayFor(modelitem => item.NewsTitle)
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </table>
+            </div>
+</div>
