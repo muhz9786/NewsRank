@@ -10,7 +10,7 @@ A Web app implemented with ASP.NET and MySQL, and includes a timed spider.
 - **数据库**：MySQL 8.0
 - **数据库连接器**：Pomelo.EntityFrameworkCore.MySql
 - **.NET框架**：.NET Core 2.1
-- **WEB框架**：ASP.NET CORE MVC
+- **WEB框架**：ASP.NET Core MVC
 - **HTML解析器**：Html Agility Pack 1.11.8
 - **测试浏览器**：Google Chrome
 
