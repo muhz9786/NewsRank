@@ -65,22 +65,21 @@ dotnet ef database update
 dotnet run
 ```
 服务开启，将得到类似的输出信息：
->Now listening on: https://localhost:5001
+>Now listening on: https://localhost:5001    
 Now listening on: http://localhost:5000
 
 在浏览器输入url进入系统web页面。
 
 ### 3.4. 网页使用
 
+1. 点击分区标题进入分区页面。
+
 ![](./doc/img/1.png)
 
-点击分区标题进入分区页面。
+2. 点击新闻标题进入详情页面。
 
 ![](./doc/img/2.png)
 
-点击新闻标题进入详情页面。
+3. 浏览新闻详情。
 
 ![](./doc/img/3.png)
-
-浏览新闻详情。
-
